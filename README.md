@@ -2,6 +2,8 @@
 
 A simple Node.js command-line interface (CLI) tool to check the list of Canadian holidays for a given year.
 
+<img width="537" alt="image" src="https://github.com/dnshi/canadian-holidays/assets/5042222/5e513635-04ea-49e1-a6c8-1dd6d4a5f143">
+
 ## Features
 
 - Retrieve and display a list of statutory holidays in Canada for a specified year.
