@@ -89,9 +89,15 @@ function displayCalendar(year, month, holidays) {
 async function main() {
   const program = new Command();
   program
-    .option("-c, --calendar <calendar>", "Display the calendar")
-    .option("-p, --province <province>", "Specify the Canadian province")
-    .option("-y, --year <year>", "Specify the year of the holidays")
+    .option("-c, --calendar <calendar>", "Display holidays in calendar format")
+    .option(
+      "-p, --province <province>",
+      "Specify the Canadian province to get holidays for that province"
+    )
+    .option(
+      "-y, --year <year>",
+      "Specify the year for which you want to check holidays"
+    )
     .parse(process.argv);
 
   const options = program.opts();
