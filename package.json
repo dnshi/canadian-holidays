@@ -1,0 +1,33 @@
+{
+  "name": "canadian-holidays",
+  "version": "0.1.0",
+  "description": "Node CLI to check a list of the Canadian holidays for a given year",
+  "main": "./canadian-holidays.js",
+  "bin": {
+    "canadian-holidays": "./canadian-holidays.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node canadian-holidays.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dean Shi <dean.xiaoshi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "date-fns": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnshi/canadian-holidays.git"
+  },
+  "keywords": [
+    "canadian",
+    "holidays",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/dnshi/canadian-holidays/issues"
+  },
+  "homepage": "https://github.com/dnshi/canadian-holidays#readme"
+}
