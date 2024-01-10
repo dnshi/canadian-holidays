@@ -26,7 +26,7 @@ canadian-holidays [options]
 
 Options:
 
-- `-c, --calendar <calendar>`: Display holidays in calendar format.
+- `-c, --calendar`: Display holidays in calendar format.
 - `-p, --province <province>`: Specify the Canadian province to get holidays for that province.
 - `-y, --year <year>`: Specify the year for which you want to check holidays.
 
