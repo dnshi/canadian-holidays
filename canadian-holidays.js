@@ -89,7 +89,7 @@ function displayCalendar(year, month, holidays) {
 async function main() {
   const program = new Command();
   program
-    .option("-c, --calendar <calendar>", "Display holidays in calendar format")
+    .option("-c, --calendar", "Display holidays in calendar format")
     .option(
       "-p, --province <province>",
       "Specify the Canadian province to get holidays for that province"
@@ -166,7 +166,7 @@ function printToday(today) {
 
 function printHoliday(holiday) {
   console.log(
-    `${holiday.date}: [${holiday.federal ? "National" : "Provincial"}] ${
+    `${holiday.date}: ${holiday.federal ? " [National] " : "[Provincial]"} ${
       holiday.nameEn
     }`
   );
