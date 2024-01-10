@@ -10,12 +10,10 @@ A simple Node.js command-line interface (CLI) tool to check the list of Canadian
 
 ## Installation
 
-Ensure you have Node.js installed on your machine. Clone the repository and install the dependencies.
+Ensure you have Node.js installed on your machine. Install the tool globally using npm.
 
 ```bash
-git clone https://github.com/dnshi/canadian-holidays.git
-cd canadian-holidays
-npm install -g
+npm install -g canadian-holidays
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 {
   "name": "canadian-holidays",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node CLI to check a list of the Canadian holidays for a given year",
   "main": "./canadian-holidays.js",
   "bin": {
