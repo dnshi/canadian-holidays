@@ -40,7 +40,7 @@ This will display a list of statutory holidays in Ontario for the year 2023.
 
 ## API Source
 
-The tool fetches holiday data from the [Canada Holidays API](https://canada-holidays.ca/api/v1/holidays).
+The tool fetches holiday data from the [Canada Holidays API](https://canada-holidays.ca/).
 
 ## License
 
